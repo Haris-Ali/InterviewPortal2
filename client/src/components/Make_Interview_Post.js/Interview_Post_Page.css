@@ -1,0 +1,467 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+    margin: 20px
+  }
+
+  .img_post{
+      width: 100%;
+  }
+
+  .contact__button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .email__button {
+    margin-top: 10px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  /* a {
+    margin:10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  } */
+
+  .main{
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    height: auto;
+  }
+
+  .left__container{
+    flex: 25%;
+    justify-content: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+  }
+
+  .right__container{
+    border-radius: 10px;
+    margin-right: 10px;
+    flex: 75%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    /* box-shadow:  8px 5px 7px -7px rgba(0,0,0,0.75); */
+    padding: 10px
+  }
+  
+  .post__header{
+    display: flex;
+    width: 80%;
+    background-color:white;
+    text-align: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+  }
+
+  .user__section{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    box-shadow:  8px 5px 7px -7px rgba(0,0,0,0.75);
+  }
+
+  .user__section__heading{
+    color: #8898aa;
+  }
+
+  .user__information__main{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 250px;
+    max-height: auto;
+    padding: 20px;
+
+    word-wrap:break-word;
+  }
+
+  .user__information__left{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .user__information__left__section{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user__information__left__section > h4 {
+    margin: 12px
+  }
+
+  .user__information__right{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .user__information__right__section{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .user__information__right__section > h4 {
+    margin: 12px
+  }
+
+  .interview__home__image{
+    width:100%;
+    z-index: -1;
+    margin-bottom:-150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    
+  }
+  
+/* Company Section*/
+.company__section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display:flex;
+  flex-direction: column;
+  width: 80%;
+  box-shadow:  8px 5px 7px -7px rgba(0,0,0,0.75);
+  padding-bottom: 30px;
+  min-height: 100vh;
+}
+
+.company__list__section{
+  margin-top: 45px;
+  margin-bottom: 10px;
+  display:flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 15px 50px;
+  padding-bottom: 30px;
+  height: 600px;
+  flex: 1;
+
+}
+.company__title__section{
+  display:flex;
+  justify-content:space-around;
+  margin-right: 10px;
+  align-items: center;
+
+}
+.company__list__heading__section{
+  display:flex;
+  justify-content: center;
+  flex:1;
+}
+.company__list__heading__section__for__profile__page{
+  display:flex;
+  justify-content: center;
+}
+
+.company__list__heading__section > h3{
+
+  color:#5F4B8BFF;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.company__information__main{
+  margin-top: 120px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: auto;
+  padding: 20px;
+
+}
+
+.candidate__information__main__below{
+  margin-left: 30px;
+  margin-top: 75px;
+  padding-top: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+}
+
+
+.company__heading__section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex:1;
+}
+.company__button__section{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.company__button__section > h4{
+  margin-right: 0.5rem;
+}
+
+.company__heading__section > .MuiSvgIcon-root{
+  font-size: xx-large;
+  margin-right:4px;
+  color:#2e81f4;  
+} 
+
+.company__button__section > .MuiSvgIcon-root{
+  font-size: xx-large;
+  margin-right:4px;
+  border-radius: 15px;
+  color:#eff2f5;  
+  background-color:  #2e81f4 ;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  box-shadow: 0px 5px 17px -7px rgba(0,0,0,0.75);
+}
+
+.company__button__section > .MuiSvgIcon-root:hover{
+  margin-right:4px;
+  font-size: xx-large;
+  transform:scale(1.08);
+}
+ /* .edit__icon{
+  font-size: xx-large;
+  margin-right:4px;
+  border-radius: 15px;
+  color:#eff2f5;  
+  background-color:  #2e81f4 ;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  box-shadow: 0px 5px 17px -7px rgba(0,0,0,0.75);
+}
+.edit__icon:hover{
+  margin-right:4px;
+  font-size: xx-large;
+  transform:scale(1.08);
+} */
+
+.company__heading_section_text{
+  color: #8898aa;
+}
+.company__section__titlebar{
+  display:flex;
+  justify-content: space-around;
+  margin-right: 10px;
+  align-items: center;
+}
+/* Project Section */
+
+.project__section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display:flex;
+  flex-direction: column;
+  width: 80%;
+  box-shadow:  8px 5px 7px -7px rgba(0,0,0,0.75);
+  padding-bottom: 30px;
+  min-height: 70vh;
+}
+
+/* Post Section */
+  .post__section{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    box-shadow:  8px 5px 7px -7px rgba(0,0,0,0.75);
+    margin-bottom: 50px;
+  }
+
+  .post__information__main{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .heading__section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .heading__section > .MuiSvgIcon-root{
+    font-size: xx-large;
+    margin-right:4px;
+    color:#2e81f4;  
+   
+  } 
+
+  .post__section__heading{
+    color: #8898aa;
+  }
+
+  .post__skills__section{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .post__skills__section > h4{
+    margin-right: 6px;
+  }
+
+  
+/* Project */
+
+.project__main{
+  margin-left: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+  @media (max-width: 1400px){
+    .user__information__main{
+      margin-top: 30px;
+      display: grid;
+      padding-left: 20px;
+      word-wrap:break-word;
+      height: auto;
+    }
+
+    
+  }
+
+@media (max-width: 1200px) {
+  .main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .user__information__main{
+    margin-top: 30px;
+    display: grid;
+    padding-left: 20px;
+    word-wrap:break-word;
+    height: auto;
+  }
+  
+  .home__image{
+    width:100%;
+    z-index: 1;
+    margin-bottom:20px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+  .right__container{
+    margin-top: 20px;
+    margin-left: 20px
+  }
+
+  .user__section{
+   padding-bottom: 30px;
+  }
+
+  .candidate__information__main__below{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .company__list__section{
+    margin-bottom: 120px;
+    padding-left: 30px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .main {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .interview__home__image{
+    width:100%;
+    z-index: 1;
+    margin-bottom:20px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+  .user__section{
+    padding-left: 120px;
+    text-align: center;
+    justify-content: center;
+    overflow: scroll;
+  }
+  
+  .user__information__left__section{
+    flex-direction: column;
+  }
+  .user__information__right__section{
+    flex-direction: column;
+  }
+
+  .post__information__main{
+    margin-top:70%;
+  }
+  .user__information__main{
+    padding-left:120px;
+  }
+  .company__section{
+    overflow: scroll;
+  }
+
+  .project__section{
+    overflow: scroll;
+  }
+
+  .company__information__main{
+    margin-top:500px;
+    
+  }
+  .company__list__section{
+    margin-bottom: 120px;
+    overflow: scroll;
+    padding-left: 30px;
+    flex-direction: column;
+  }
+  .candidate__information__main__below{
+    margin-top: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+}

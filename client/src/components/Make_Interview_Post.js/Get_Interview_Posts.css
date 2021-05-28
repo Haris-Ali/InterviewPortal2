@@ -1,0 +1,37 @@
+.home__image{
+    width:100%;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    
+}
+
+.slide-container{
+    padding: 10px;
+}
+.make__interview__posts{
+    background-image: url("../../images/Make-Interview-posts/whitish.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.edit__interview__posts{
+    background-image: url("../../images/Make-Interview-posts/colorful.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.get_posts.image{
+    position: relative;
+    height: 50%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.choose__file__button{
+    background-color: transparent;
+}
+
+.typography__form__control{
+    padding-bottom: 20px;
+}
